@@ -262,6 +262,7 @@ if [ $dev_tools == "true" ]; then
 elif [ $dev_tools == "false" ]; then
     echo_info "Skipping documentation and packaging tools"
 fi
+pip install numpy==1.22.4
 
 # Installation ended
 end_time=$(date)
